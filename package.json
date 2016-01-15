@@ -1,0 +1,31 @@
+{
+  "name": "impequid-utilities",
+  "version": "0.0.1",
+  "description": "Provides some abstractions for impequid apps.",
+  "main": "build/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015 source -d build",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dodekeract/impequid-utilities.git"
+  },
+  "keywords": [
+    "impequid",
+    "utils",
+    "utilities"
+  ],
+  "author": "Florian Wendelborn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dodekeract/impequid-utilities/issues"
+  },
+  "homepage": "https://github.com/dodekeract/impequid-utilities#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
